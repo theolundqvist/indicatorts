@@ -6,5 +6,6 @@ import { StrategyInfo } from './strategyInfo';
 export interface StrategyResult {
     info: StrategyInfo;
     gain: number;
+    gains: number[];
     lastAction: Action;
 }

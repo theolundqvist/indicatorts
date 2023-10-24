@@ -25,6 +25,7 @@ export function backtest(
 
     result[i] = {
       info: infos[i],
+      gains: gains,
       gain: gains[gains.length - 1],
       lastAction: actions[actions.length - 1],
     };
