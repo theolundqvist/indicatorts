@@ -13,6 +13,7 @@ export * from './company/companyInfo';
 export * from './helper/binarySearchTree';
 export * from './helper/date';
 export * from './helper/numArray';
+export * from './helper/asset';
 export * from './helper/regression';
 export * from './indicator/momentum/awesomeOscillator';
 export * from './indicator/momentum/chaikinOscillator';

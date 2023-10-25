@@ -3,6 +3,7 @@
  * @param values values list.
  */
 export declare function checkSameLength(...values: number[][]): void;
+export declare function mean(...values: number[][]): number[];
 /**
  * Absolute values of the given values.
  * @param values values array.

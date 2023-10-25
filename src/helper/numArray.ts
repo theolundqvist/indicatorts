@@ -17,6 +17,25 @@ export function checkSameLength(...values: number[][]): void {
   }
 }
 
+
+export function mean(...values: number[][]): number[] {
+  checkSameLength(...values);
+
+  const result = new Array<number>(values[0].length);
+
+  for (let i = 0; i < result.length; i++) {
+    let sum = 0;
+
+    for (let j = 0; j < values.length; j++) {
+      sum += values[j][i];
+    }
+
+    result[i] = sum / values.length;
+  }
+
+  return result;
+}
+
 /**
  * Absolute values of the given values.
  * @param values values array.
