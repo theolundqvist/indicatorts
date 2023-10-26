@@ -18,6 +18,9 @@ export function checkSameLength(...values: number[][]): void {
 }
 
 
+// export function sparse(values: number[], )
+
+
 export function mean(...values: number[][]): number[] {
   checkSameLength(...values);
 
@@ -112,6 +115,7 @@ export function divideBy(n: number, values: number[]): number[] {
 
   return result;
 }
+
 
 /**
  * Multiply values1 by values2.
